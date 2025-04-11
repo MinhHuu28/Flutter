@@ -25,6 +25,27 @@ This project is a collection of iOS-style utility applications developed with **
 - Calculates expressions using `math_expressions` package.
 - Responsive UI and interactive feedback for each button.
 
+### ⏱ Stopwatch Page (Bấm giờ)
+
+- iOS-style stopwatch with beautiful Cupertino design.
+- Shows time with minute, second, and hundredths of a second precision.
+- Functions include:
+  - **Start/Stop** stopwatch.
+  - **Lap** to record split times.
+  - **Reset** the stopwatch when stopped.
+- Lap records are displayed in a scrollable list, with fastest lap highlighted in green and slowest in red.
+- Built using `Ticker` from Flutter's animation framework for real-time updates.
+
+### ⏳ Timer Page (Hẹn giờ)
+
+- User can set countdown time using Cupertino-style pickers (hours, minutes, seconds).
+- Functions include:
+  - **Start** countdown timer.
+  - **Cancel** during countdown.
+  - Displays the **remaining time** in large, readable format.
+- Countdown history is saved and displayed below the timer.
+- Clean dark theme interface with interactive buttons and Cupertino animations.
+
 ## 📱 Screenshots
 
 _Coming soon... (you can include screenshots here if desired)_
